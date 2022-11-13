@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://kit.fontawesome.com/2bf0199491.js" crossorigin="anonymous"></script>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images\logo.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"><b>Home</b></a></li>
+                    <li><a href="#about"><b>About</b></a></li>
+                    <li><a href="#Achievements"><b>Achievements</b></a></li>
+                    <li><a href="#contact"><b>Contact</b></a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <font size="+5">
+                    <p style="color:rgb(220, 50, 98)"><b>Priyanshi Maheshwari</b></p>
+                </font> -->
+                <h1 style="color: rgb(247, 247, 247); font-family: 'Courier New', Courier, monospace;">Hi, I'm <span>Priyanshi Maheshwari</span>
+                    <br>from Jaipur.</h1>
+                <h2 style="color: rgb(247,247,247); font-family: 'Courier New', Courier, monospace;">I am a Machine Learning <br>enthusiast.</h2>
+            </div>
+
+        </div>
+    </div>
+    <!-- -------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\mypic.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="font-size: 150%;"><b>
+                            Hi, my name is Priyanshi Maheshwari.<br>
+                            I am a student of SRMIST, Kattankulathur, <br>
+                            currently pursuing B.Tech CSE with Specialization in AI & ML.<br>
+                            I am a Machine Learning enthusiast, and <br>
+                            I enjoy learning new technologies and implementing them.<br>
+                            I am interested in the field of Deep Learning and Artificial Intelligence. 
+                            I love to travel, and love to sing and dance.</b>
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')"><b>Skills</b></p>
+                        <p class="tab-links" onclick="opentab('Education')"><b>Education</b></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <!-- <li><span>UI/UX</span><br>Designing Web Interface</li> -->
+                            <li><span><b>Technical Skills</b></span><br>Python<br>Machine Learning<br>C Programming<br>C++ Programming<br>HTML<br>
+                                CSS<br><br>
+                            </li>
+                            <li><span><b>Soft Skills</b></span><br>Good Communication Skills<br>Problem Solving Skills<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span><b>2025</b></span><br>B.Tech CSE - AI & ML <br>SRM Institute of Science and Technology, Kattankulathur</li>
+                            <li><span><b>2021</b></span><br>Board Of Intermediate<br> Apex International School,Jaipur</li>
+                            <li><span><b>2019</b></span><br>High School<br>MGPS,Jaipur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------Achievements---------------->
+<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <div id="Achievements">
+        <div class="container">
+            <h1 class="sub-title">Achievements</h1>
+            <div class="Achievements-list">
+                <div>
+                    <iconify-icon icon="simple-icons:hackerrank" width="80" height="80"></iconify-icon>
+                    <h2>Hackerrank</h2>
+                    <p>Achieved silver badge in C Programming</p>
+                    <a href="https://www.hackerrank.com/Priyanshi_16">Learn more</a>
+                </div>
+                <div>
+                    <iconify-icon icon="simple-icons:codechef" width="80" height="80"></iconify-icon>
+                    <h2>Code Chef</h2>
+                    <a href="https://www.codechef.com/users/srmbtech_154">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>HTML and CSS</h2>
+                    <p>The Course was provided by udemy.</p>
+                    <a href="https://drive.google.com/file/d/1uSHz606wKvoXtUN7GYPRM0-z6xxKyZ2k/view">Learn more</a>
+                </div>
+            </div>
+            <div class="Achievements-list-2">
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h2>C Programming</h2>
+                    <p>SRM Elab Certification for completion of 300 problems. <br>Three Certificates for 3 level of problems.</p>
+                    <a href="https://drive.google.com/file/d/1glu41H6PAQhNY4J1u9yXGjFk1x2tym7L/view">Level 1 certificate</a><br>
+                    <a href="https://drive.google.com/file/d/1CDPCXbJkHPdkOWYRjIuD0L6X08h30DI1/view">Level 2 certificate</a><br>
+                    <a href="https://drive.google.com/file/d/1IJzeYuTorvDc1QC3a39HWqVuUxlYzESu/view">Level 3 certificate</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Python Programming</h2>
+                    <p>This course was provided by IIT Kharagpur</p>
+                    <a href="https://drive.google.com/file/d/1iT2MoCo0Xez6IuQBuhWMVLS4q-SYk9U6/view">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<!------------------Portfolio---------------->
+<div id="Portfolio">
+    
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>pk5963@srmist.edu.in</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 7849913224</p>
+                <div class="social-icons">  
+                    <a href="https://www.instagram.com/priyanshimaheshwari_/"><i class="fa-brands fa-instagram"></i></a>  
+                    <a href="https://www.linkedin.com/in/priyanshi-maheshwari-438bab225"><i class="fa-brands fa-linkedin"></i></a>  
+                    <a href="https://github.com/priyanshimaheshwari"><i class="fa-brands fa-github"></i></a> 
+                </div>
+                
+            </div>
+            <div class="contact-right"> 
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <pi><i class="fa-solid fa-hand-point-right"></i> Copyright © Priyanshi Maheshwari <i class="fa-solid fa-hand-point-left"></i></pi>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzpj7v73lD5RcdfVByXRoK3Zkz4ltUIxl0itjhMSVU1PmK2QdzRecYn56mCDMmfg6U/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },2000)
+                form.reset()
+            })
+            .catch(error => console.error('Submission Error!', error.message))
+        })
+      </script>
+</body>
+</html>
